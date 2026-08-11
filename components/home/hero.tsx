@@ -38,12 +38,12 @@ export function Hero() {
           </ul>
         </div>
 
-        <div className="relative mx-auto w-full max-w-lg py-8 lg:mx-0 lg:max-w-none lg:py-4">
+        <div className="relative mx-auto w-full max-w-lg py-8 lg:mr-0 lg:-ml-2 lg:w-[calc(100%+2.5rem)] lg:max-w-none lg:py-2">
           <div
             aria-hidden="true"
             className="absolute -inset-x-7 -inset-y-6 z-0 rounded-[38%_62%_24%_76%/22%_28%_72%_78%] bg-halo/50 sm:-inset-x-8 sm:-inset-y-7 lg:-inset-x-10 lg:-inset-y-8"
           />
-          <div className="relative z-10 aspect-[6/5] w-full overflow-hidden rounded-[34%_66%_18%_82%/20%_24%_76%_80%] shadow-xl sm:rounded-[36%_64%_20%_80%/18%_28%_72%_82%] lg:aspect-[11/10] lg:rounded-[38%_62%_18%_82%/20%_28%_72%_80%]">
+          <div className="relative z-10 aspect-[6/5] w-full overflow-hidden rounded-[34%_66%_18%_82%/20%_24%_76%_80%] shadow-xl sm:rounded-[36%_64%_20%_80%/18%_28%_72%_82%] lg:aspect-[6/5] lg:rounded-[38%_62%_18%_82%/20%_28%_72%_80%]">
             <Image
               src="/images/hero-main.png"
               alt="A gardener planting flowers in a well-kept British back garden, with a drill and toolbox in the foreground representing handyman work"

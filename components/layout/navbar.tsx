@@ -75,7 +75,7 @@ export function Navbar() {
           </span>
         </Link>
 
-        <ul className="hidden items-center gap-8 lg:flex">
+        <ul className="relative z-10 hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => {
             const isActive = activeHash === link.href
             return (
@@ -101,8 +101,10 @@ export function Navbar() {
           })}
         </ul>
 
-        <div className="hidden lg:block">
-          <CTAButton render={<Link href="#contact" />}>Get a Free Quote</CTAButton>
+        <div className="relative z-10 hidden lg:block">
+          <CTAButton className="rounded-[11px] px-7 uppercase" render={<Link href="#contact" />}>
+            Get a Free Quote
+          </CTAButton>
         </div>
 
         <button
