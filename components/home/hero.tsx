@@ -45,7 +45,7 @@ export function Hero() {
           />
           <div className="relative z-10 aspect-[6/5] w-full overflow-hidden rounded-[34%_66%_18%_82%/20%_24%_76%_80%] shadow-xl sm:rounded-[36%_64%_20%_80%/18%_28%_72%_82%] lg:aspect-[6/5] lg:rounded-[38%_62%_18%_82%/20%_28%_72%_80%]">
             <Image
-              src="/images/hero-main.png"
+              src="/images/Hero%20for%20learge.png"
               alt="A gardener planting flowers in a well-kept British back garden, with a drill and toolbox in the foreground representing handyman work"
               fill
               priority
