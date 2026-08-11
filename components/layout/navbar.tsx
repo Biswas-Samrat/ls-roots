@@ -58,7 +58,7 @@ export function Navbar() {
               alt="LS Roots & Branch logo"
               width={112}
               height={112}
-              className="rounded-full size-[150%] -translate-x-[17%] -translate-y-[17%] object-cover"
+              className="w-full h-full rounded-full object-cover"
               priority
             />
           </span>
