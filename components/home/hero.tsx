@@ -41,20 +41,16 @@ export function Hero() {
         <div className="relative mx-auto w-full max-w-lg py-8 lg:mx-0 lg:max-w-none lg:py-4">
           <div
             aria-hidden="true"
-            className="absolute -top-3 -right-3 z-0 h-full w-full rounded-tl-[2rem] rounded-tr-[6rem] rounded-br-[2rem] rounded-bl-[5rem] bg-halo sm:-top-4 sm:-right-4 sm:rounded-tr-[7rem] sm:rounded-bl-[6rem] lg:rounded-tl-[2.5rem] lg:rounded-tr-[8rem] lg:rounded-br-[2.5rem] lg:rounded-bl-[7rem]"
+            className="absolute -inset-x-7 -inset-y-6 z-0 rounded-[38%_62%_24%_76%/22%_28%_72%_78%] bg-halo/50 sm:-inset-x-8 sm:-inset-y-7 lg:-inset-x-10 lg:-inset-y-8"
           />
-          <div
-            aria-hidden="true"
-            className="absolute -bottom-3 -left-3 z-0 h-full w-full rounded-tl-[2rem] rounded-tr-[6rem] rounded-br-[2rem] rounded-bl-[5rem] bg-halo sm:-bottom-4 sm:-left-4 sm:rounded-tr-[7rem] sm:rounded-bl-[6rem] lg:rounded-tl-[2.5rem] lg:rounded-tr-[8rem] lg:rounded-br-[2.5rem] lg:rounded-bl-[7rem]"
-          />
-          <div className="relative z-10 aspect-[6/5] w-full overflow-hidden rounded-tl-[2rem] rounded-tr-[6rem] rounded-br-[2rem] rounded-bl-[5rem] shadow-xl sm:rounded-tr-[7rem] sm:rounded-bl-[6rem] lg:aspect-[11/10] lg:rounded-tl-[2.5rem] lg:rounded-tr-[8rem] lg:rounded-br-[2.5rem] lg:rounded-bl-[7rem]">
+          <div className="relative z-10 aspect-[6/5] w-full overflow-hidden rounded-[34%_66%_18%_82%/20%_24%_76%_80%] shadow-xl sm:rounded-[36%_64%_20%_80%/18%_28%_72%_82%] lg:aspect-[11/10] lg:rounded-[38%_62%_18%_82%/20%_28%_72%_80%]">
             <Image
               src="/images/hero-main.png"
               alt="A gardener planting flowers in a well-kept British back garden, with a drill and toolbox in the foreground representing handyman work"
               fill
               priority
               sizes="(min-width: 1024px) 50vw, 90vw"
-              className="object-cover"
+              className="object-cover object-[58%_center]"
             />
           </div>
         </div>
