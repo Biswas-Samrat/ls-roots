@@ -14,7 +14,7 @@ export function Footer() {
             <div className="flex items-center gap-2.5">
               <span className="flex size-11 shrink-0 items-center justify-center overflow-hidden rounded-full bg-primary-foreground/95">
                 <Image
-                  src="/images/logo-tree.png"
+                  src="/images/logo-and-fab.png"
                   alt="LS Roots & Branch logo"
                   width={44}
                   height={44}
