@@ -49,7 +49,7 @@ export function Navbar() {
       >
         <div
           aria-hidden="true"
-          className="absolute top-0 right-0 z-0 hidden h-[calc(100%+2.5rem)] w-64 rounded-bl-[5rem] bg-halo lg:block"
+          className="absolute inset-y-0 right-0 z-0 hidden w-64 rounded-bl-[5rem] bg-halo lg:block"
         />
         <Link href="#home" className="flex items-center gap-3 py-3" aria-label="LS Roots & Branch home">
           <span className="relative size-11 shrink-0 overflow-hidden rounded-full bg-background sm:size-14">
