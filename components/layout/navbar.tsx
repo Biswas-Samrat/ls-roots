@@ -49,7 +49,7 @@ export function Navbar() {
       >
         <div
           aria-hidden="true"
-          className="absolute top-0 right-0 z-0 hidden h-[calc(100%+2.5rem)] w-64 rounded-bl-[5rem] bg-halo lg:block"
+          className="absolute inset-y-0 right-0 z-0 hidden w-64 rounded-bl-[5rem] bg-halo lg:block"
         />
         <Link href="#home" className="flex items-center gap-3 py-3" aria-label="LS Roots & Branch home">
           <span className="relative size-11 shrink-0 overflow-hidden rounded-full bg-background sm:size-14">
@@ -75,7 +75,7 @@ export function Navbar() {
           </span>
         </Link>
 
-        <ul className="hidden items-center gap-8 lg:flex">
+        <ul className="relative z-10 hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => {
             const isActive = activeHash === link.href
             return (
@@ -101,8 +101,10 @@ export function Navbar() {
           })}
         </ul>
 
-        <div className="hidden lg:block">
-          <CTAButton render={<Link href="#contact" />}>Get a Free Quote</CTAButton>
+        <div className="relative z-10 hidden lg:block">
+          <CTAButton className="rounded-[11px] px-7 uppercase" render={<Link href="#contact" />}>
+            Get a Free Quote
+          </CTAButton>
         </div>
 
         <button

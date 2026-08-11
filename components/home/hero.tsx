@@ -38,23 +38,15 @@ export function Hero() {
           </ul>
         </div>
 
-        <div className="relative mx-auto w-full max-w-lg py-8 lg:mx-0 lg:max-w-none lg:py-4">
-          <div
-            aria-hidden="true"
-            className="absolute -top-3 -right-3 z-0 h-full w-full rounded-tl-[2rem] rounded-tr-[6rem] rounded-br-[2rem] rounded-bl-[5rem] bg-halo sm:-top-4 sm:-right-4 sm:rounded-tr-[7rem] sm:rounded-bl-[6rem] lg:rounded-tl-[2.5rem] lg:rounded-tr-[8rem] lg:rounded-br-[2.5rem] lg:rounded-bl-[7rem]"
-          />
-          <div
-            aria-hidden="true"
-            className="absolute -bottom-3 -left-3 z-0 h-full w-full rounded-tl-[2rem] rounded-tr-[6rem] rounded-br-[2rem] rounded-bl-[5rem] bg-halo sm:-bottom-4 sm:-left-4 sm:rounded-tr-[7rem] sm:rounded-bl-[6rem] lg:rounded-tl-[2.5rem] lg:rounded-tr-[8rem] lg:rounded-br-[2.5rem] lg:rounded-bl-[7rem]"
-          />
-          <div className="relative z-10 aspect-[6/5] w-full overflow-hidden rounded-tl-[2rem] rounded-tr-[6rem] rounded-br-[2rem] rounded-bl-[5rem] shadow-xl sm:rounded-tr-[7rem] sm:rounded-bl-[6rem] lg:aspect-[11/10] lg:rounded-tl-[2.5rem] lg:rounded-tr-[8rem] lg:rounded-br-[2.5rem] lg:rounded-bl-[7rem]">
+        <div className="relative mx-auto w-full max-w-lg py-8 lg:mr-0 lg:-ml-2 lg:w-[calc(100%+2.5rem)] lg:max-w-none lg:py-2">
+          <div className="relative z-10 aspect-[6/5] w-full overflow-hidden shadow-xl lg:aspect-[6/5]">
             <Image
-              src="/images/hero-main.png"
+              src="/images/Hero%20for%20learge.png"
               alt="A gardener planting flowers in a well-kept British back garden, with a drill and toolbox in the foreground representing handyman work"
               fill
               priority
               sizes="(min-width: 1024px) 50vw, 90vw"
-              className="object-cover"
+              className="object-cover object-[58%_center]"
             />
           </div>
         </div>
