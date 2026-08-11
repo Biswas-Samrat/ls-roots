@@ -21,21 +21,9 @@ export const metadata: Metadata = {
     "We're a local, reliable and friendly service offering a range of gardening and handyman services to help keep your home and garden looking its best. Serving Spalding & surrounding areas.",
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/images/logo-and-fab.png',
+    shortcut: '/images/logo-and-fab.png',
+    apple: '/images/logo-and-fab.png',
   },
 }
 

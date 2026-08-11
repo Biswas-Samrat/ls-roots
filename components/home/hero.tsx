@@ -8,8 +8,8 @@ const trustPoints = ['No job too small', 'Competitive prices', 'Friendly local s
 export function Hero() {
   return (
     <section id="home" className="relative overflow-hidden bg-background">
-      <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-14 sm:px-6 lg:grid-cols-2 lg:gap-10 lg:px-8 lg:py-20">
-        <div className="flex flex-col items-start gap-6 lg:pr-6">
+      <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-10 sm:px-6 lg:grid-cols-2 lg:gap-8 lg:px-8 lg:py-16">
+        <div className="flex flex-col items-start gap-5 lg:pr-6">
           <span className="text-xs font-bold tracking-[0.25em] text-accent uppercase">
             Local &bull; Reliable &bull; Trustworthy
           </span>
@@ -38,15 +38,15 @@ export function Hero() {
           </ul>
         </div>
 
-        <div className="relative mx-auto w-full max-w-lg py-8 lg:mr-0 lg:-ml-2 lg:w-[calc(100%+2.5rem)] lg:max-w-none lg:py-2">
-          <div className="relative z-10 aspect-[6/5] w-full overflow-hidden shadow-xl lg:aspect-[6/5]">
+        <div className="relative mx-auto w-full max-w-lg py-8 lg:mr-0 lg:max-w-none lg:py-2">
+          <div className="relative aspect-[6/5] w-full lg:aspect-[6/5]">
             <Image
               src="/images/Hero%20for%20learge.png"
               alt="A gardener planting flowers in a well-kept British back garden, with a drill and toolbox in the foreground representing handyman work"
               fill
               priority
               sizes="(min-width: 1024px) 50vw, 90vw"
-              className="object-cover object-[58%_center]"
+              className="object-cover object-center"
             />
           </div>
         </div>

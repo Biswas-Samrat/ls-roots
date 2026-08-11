@@ -52,13 +52,13 @@ export function Navbar() {
           className="absolute inset-y-0 right-0 z-0 hidden w-64 rounded-bl-[5rem] bg-halo lg:block"
         />
         <Link href="#home" className="flex items-center gap-3 py-3" aria-label="LS Roots & Branch home">
-          <span className="relative size-11 shrink-0 overflow-hidden rounded-full bg-background sm:size-14">
+          <span className="relative w-11 h-11 shrink-0 overflow-hidden rounded-full bg-background sm:w-14 sm:h-14">
             <Image
-              src="/images/logo-tree.png"
-              alt=""
+              src="/images/logo-and-fab.png"
+              alt="LS Roots & Branch logo"
               width={112}
               height={112}
-              className="size-[150%] -translate-x-[17%] -translate-y-[17%] object-cover"
+              className="rounded-full size-[150%] -translate-x-[17%] -translate-y-[17%] object-cover"
               priority
             />
           </span>
